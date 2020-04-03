@@ -1,4 +1,5 @@
-def plus_two(num)
-	num + 2
-	num
+require 'pry'
+
+def plus_two(num = 3)
+	num.to_i + 2
 end
